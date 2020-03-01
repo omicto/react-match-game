@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Board from "./components/board/board.component";
+import { shuffle } from "./utils/array";
+
+const options = [
+  {
+    identifier: "moprosoft",
+    question: "algo de mexico o asi",
+    answer: "moprosoft"
+  },
+  {
+    identifier: "cmmi",
+    question: "algo q mide lo chingon o asi",
+    answer: "cmmi"
+  }
+];
+
+let cards = [];
+options.forEach(option =>
+  cards.push(
+    { identifier: option.identifier, value: option.question },
+    { identifier: option.identifier, value: option.answer }
+  )
+);
+cards = shuffle(cards);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Board options={cards}></Board>
     </div>
   );
 }
