@@ -37,7 +37,7 @@ class Board extends Component {
     const { flippedCards, temporaliyFlipped } = this.state;
     const { options } = this.props;
     return (
-      <div className="board">
+      <div className="board row">
         {options.map((option, index) => (
           <Card
             key={index}

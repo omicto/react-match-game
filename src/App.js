@@ -1,21 +1,11 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import Board from "./components/board/board.component";
 import { shuffle } from "./utils/array";
+import { data } from "./utils/data";
 
-const options = [
-  {
-    identifier: "moprosoft",
-    question: "algo de mexico o asi",
-    answer: "moprosoft"
-  },
-  {
-    identifier: "cmmi",
-    question: "algo q mide lo chingon o asi",
-    answer: "cmmi"
-  }
-];
+const options = data;
 
 let cards = [];
 options.forEach(option =>
@@ -28,7 +18,7 @@ cards = shuffle(cards);
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <Board options={cards}></Board>
     </div>
   );
