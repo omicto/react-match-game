@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-match-game/static/css/main.ee006e79.chunk.css",
+    "main.js": "/react-match-game/static/js/main.2b94ccf9.chunk.js",
+    "main.js.map": "/react-match-game/static/js/main.2b94ccf9.chunk.js.map",
+    "runtime-main.js": "/react-match-game/static/js/runtime-main.e223f5a3.js",
+    "runtime-main.js.map": "/react-match-game/static/js/runtime-main.e223f5a3.js.map",
+    "static/js/2.149e1e5b.chunk.js": "/react-match-game/static/js/2.149e1e5b.chunk.js",
+    "static/js/2.149e1e5b.chunk.js.map": "/react-match-game/static/js/2.149e1e5b.chunk.js.map",
+    "index.html": "/react-match-game/index.html",
+    "precache-manifest.386b316f4dc668d01bca7fd75ab9500f.js": "/react-match-game/precache-manifest.386b316f4dc668d01bca7fd75ab9500f.js",
+    "service-worker.js": "/react-match-game/service-worker.js",
+    "static/css/main.ee006e79.chunk.css.map": "/react-match-game/static/css/main.ee006e79.chunk.css.map",
+    "static/js/2.149e1e5b.chunk.js.LICENSE.txt": "/react-match-game/static/js/2.149e1e5b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-match-game/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e223f5a3.js",
+    "static/js/2.149e1e5b.chunk.js",
+    "static/css/main.ee006e79.chunk.css",
+    "static/js/main.2b94ccf9.chunk.js"
+  ]
+}
